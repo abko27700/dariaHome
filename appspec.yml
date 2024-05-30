@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/projectDaria/smartCalendar
+    destination: /home/ec2-user/projectDaria/dariahOME
 hooks:
   AfterInstall:
     - location: scripts/after_install.sh
