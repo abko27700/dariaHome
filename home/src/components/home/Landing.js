@@ -22,7 +22,7 @@ function Landing() {
                     <h2>How It Works</h2>
                     <ol>
                         <li><strong>Sign Up:</strong> Create your account in minutes and start exploring the features of Project Daria.</li>
-                        <li><strong>Explore Prototypes:</strong> Test our innovative prototypes for task management and reminders.</li>
+                        {/* <li><strong>Explore Prototypes:</strong> Test our innovative prototypes for task management and reminders.</li> */}
                         <li><strong>Stay Updated:</strong> Be the first to know when our full AI capabilities are launched.</li>
                     </ol>
                 </section>
