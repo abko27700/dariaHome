@@ -13,7 +13,7 @@ function Landing() {
                     <ul>
                         <li><strong>Intelligent Reminders:</strong> Never miss an important date or deadline again. Project Daria's prototype reminder system ensures you're always on top of your schedule.</li>
                         <li><strong>Task Automation:</strong> Automate repetitive tasks effortlessly. Our current prototypes can help streamline your daily routine with ease.</li>
-                        <li><strong>Personalized Assistance:</strong> Our future AI assistant will learn your preferences and adapt to your needs, making every interaction seamless and efficient.</li>
+                        {/* <li><strong>Personalized Assistance:</strong> Our future AI assistant will learn your preferences and adapt to your needs, making every interaction seamless and efficient.</li> */}
                         <li><strong>User-Friendly Interface:</strong> Experience a clean, intuitive interface designed for simplicity and efficiency, ensuring that you can manage your tasks without any hassle.</li>
                     </ul>
                 </section>
