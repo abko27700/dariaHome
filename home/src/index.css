@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dee9da;
+    /* Soft sage green background */
+    color: #697065;
+    font-family: Arial, sans-serif;
+    /* Adding a default font family for better readability */
+    overflow-x: hidden;
+    /* To prevent horizontal scrolling */
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    /* Reduced padding */
+    background-color: #90b385;
+    color: #83837f;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 20px);
+    /* Adjusted width */
+    z-index: 1000;
+    /* Ensure the navbar stays on top of other content */
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-brand,
+.navbar-item {
+    color: #f2f8ee;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-brand:hover,
+.navbar-item:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5c7750;
+    /* Slightly darker color */
+    color: #f2f8ee;
+    position: relative;
+    /* Changed from absolute to relative */
+    width: 100%;
+}
+
+footer h2 {
+    margin-top: 0;
+    color: #f2f8ee;
+}
+
+.footer a {
+    color: #f2f8ee;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Adding padding to the bottom of the main content to prevent overlap with footer */
+main {
+    padding-bottom: 60px;
+    /* Adjust this value based on the height of the footer */
+}

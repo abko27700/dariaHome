@@ -1,0 +1,52 @@
+/* AppLanding.css */
+
+.app-landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* Align content at the top */
+    min-height: calc(100vh - 60px);
+    /* Adjusted to consider navbar height */
+    /* Ensure the container takes at least the full viewport height minus navbar height */
+    text-align: center;
+    padding-top: 80px;
+    /* Add padding to create space below the navbar */
+}
+
+.app-landing-container h2 {
+    color: rgb(65, 99, 80);
+}
+
+.app-landing-container h1 {
+    margin-bottom: 20px;
+}
+
+.app-landing-container .buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80%;
+    /* Limit the width of the button container */
+}
+
+.app-landing-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #40744b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    /* Each button takes up 20% of the container width */
+    flex-grow: 1;
+    /* Allow buttons to grow if there's extra space */
+    flex-shrink: 1;
+    /* Allow buttons to shrink if there's not enough space */
+}
+
+.app-landing-container button:hover {
+    background-color: #7cc171;
+}

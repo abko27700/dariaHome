@@ -1,0 +1,47 @@
+.prototypes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* Align content at the top */
+    min-height: 100vh;
+    /* Ensure the container takes at least the full viewport height */
+    text-align: center;
+}
+
+.prototypes-container h2 {
+    color: rgb(65, 99, 80);
+}
+
+.prototypes-container h1 {
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80%;
+    /* Limit the width of the button container */
+}
+
+.prototypes-container button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #40744b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    /* Each button takes up 20% of the container width */
+    flex-grow: 1;
+    /* Allow buttons to grow if there's extra space */
+    flex-shrink: 1;
+    /* Allow buttons to shrink if there's not enough space */
+}
+
+.prototypes-container button:hover {
+    background-color: #7cc171;
+}

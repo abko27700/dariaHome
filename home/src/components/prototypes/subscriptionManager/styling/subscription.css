@@ -1,0 +1,109 @@
+.subscription-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.reminder-container {
+    margin-top: 20px;
+    /* Adjust the margin for spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reminder-box {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 5px;
+    /* Adjust the margin for spacing */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, border-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    user-select: none;
+}
+
+.reminder-box.green {
+    background-color: #5ead6f;
+    border-color: #518953;
+}
+
+.reminder-box.red {
+    background-color: #fc8279;
+    border-color: #e9766e;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #5d5d5d;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #9a9a9a;
+}
+
+.checkbox-container {
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+}
+
+.reminder-days-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.reminder-days-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

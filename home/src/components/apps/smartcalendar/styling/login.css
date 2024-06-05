@@ -1,0 +1,61 @@
+main {
+    height: 100vh;
+    /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label,
+input,
+button,
+hr,
+p {
+    margin: 10px 0;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+    /* Adjust width as needed */
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.report-table {
+    border-collapse: separate;
+    /* Separate borders for a more pleasant feel */
+    border-spacing: 0;
+    /* Remove any spacing between cells */
+    border-radius: 10px;
+    /* Add border-radius for curved edges */
+    overflow: hidden;
+    /* Ensure overflow content is hidden */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow for depth */
+}
+
+.report-table th,
+.report-table td {
+    border: 1px solid #dddddd;
+    /* Add border to table cells */
+    padding: 12px;
+    /* Add padding to table cells */
+    text-align: left;
+    /* Align text to the left */
+}
+
+.report-table th {
+    background-color: #f2f2f2;
+    /* Add background color to table header */
+}
