@@ -12,7 +12,8 @@ export default function SmartCalendarHome() {
         // Logic for handling delete_duplicates
         // call api: http://127.0.0.1:5000/events/delete_duplicates
         // POST: no AUTH.
-        fetch("http://127.0.0.1:5000/events/delete_duplicates", {
+        //https://p8mjzdkjq8.execute-api.us-east-1.amazonaws.com/Dev
+        fetch("https://brjc7ejohk.execute-api.us-east-1.amazonaws.com/dev/events/delete_duplicates", {
             method: 'POST'
         })
             .then(response => {
@@ -35,7 +36,7 @@ export default function SmartCalendarHome() {
         // call api: http://127.0.0.1:5000/events/report
         console.log("Fetching report...");
         // GET
-        fetch("http://127.0.0.1:5000/events/report")
+        fetch("https://brjc7ejohk.execute-api.us-east-1.amazonaws.com/dev/events/report")
             .then(response => {
                 if (response.ok) {
                     return response.json();
